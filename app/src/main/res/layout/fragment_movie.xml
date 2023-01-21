@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         tools:context=".ui.movie.MovieFragment"
-        android:background="@color/birmud"
+        android:background="@color/DeepOcean"
         tools:listitem="@layout/item_movie_or_tvshow" />
 
     <ProgressBar

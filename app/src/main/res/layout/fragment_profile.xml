@@ -11,12 +11,12 @@
         android:layout_width="1080dp"
         android:layout_height="1080dp"
         android:layout_marginBottom="@dimen/dp_8"
-        android:src="@drawable/banyu"
+        android:src="@drawable/bg1"
         app:layout_constraintBottom_toTopOf="@id/tv_data"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -24,10 +24,10 @@
         android:layout_width="@dimen/dp_150"
         android:layout_height="@dimen/dp_150"
         android:layout_marginBottom="@dimen/dp_8"
-        android:src="@drawable/img"
+        android:src="@drawable/fp1"
         app:layout_constraintBottom_toTopOf="@id/tv_data"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
@@ -39,9 +39,9 @@
         android:layout_marginTop="@dimen/dp_8"
         android:gravity="center"
         android:text="@string/data"
+        android:textColor="@color/black"
         android:textSize="@dimen/sp_24"
         android:textStyle="bold"
-        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
